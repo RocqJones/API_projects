@@ -35,6 +35,6 @@ This library is useful for making requests behind an API so that you can focus o
 
 ##### NOTE: For these programs to run make sure you install pip packages below via commandline.
 * ```pip``` is de facto standard package-management system used to install and manage software packages written in Python.
-For more cool packages visit [here](https://pypi.org/project/pip/)
-```pip install requests``` ,
-```pip install pyfiglet``` and ```pip install termcolor```
+* For this project I only needed ```pip install requests```,```pip install pyfiglet``` and ```pip install termcolor```
+
+* For more information about ```pip``` packages visit [here](https://pypi.org/project/pip/)
