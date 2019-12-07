@@ -3,7 +3,7 @@ Projects that supports APIs
 
 ### 1. Blind SQL injection (MongoDB Example)
 The Python program should performs a blind SQL injection to obtain the password of the user admin.
-* Note that the query is passed in URL parameters and should be accessed via a GET request not a POST.
+* Note that the query is passed in URL parameters and should be accessed via a ```GET``` request not a ```POST```.
 * Your program must take a single argument from the command line ```(sys.argv[1])``` that represents the IP address or name of
 ```<wfp2_site>``` (e.g. python3 program1.py wfp.oregonctf.org). Your program must implement a [binary search algorithm](https://www.geeksforgeeks.org/binary-search/) that uses conjunctions and regular expressions within [MongoDB](https://docs.mongodb.com/ecosystem/drivers/).
 #### Consider:
