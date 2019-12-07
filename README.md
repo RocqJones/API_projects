@@ -19,7 +19,22 @@ Assuming password alphabetic
 ■ Search half of non-alphabetic characters
 * Continue to narrow ```regexp``` until next character of password Found
 
+### 2. Get User Name and Password.
+* It is expected that when the program is run and domain provided at the command line.
+* The domain is supposed to return a  response containing the password list and the username.
+* The program the username list provided with the username hacker provided. If a match is found for the username hacker, the program will return the corresponding password.
 
-NOTE: For these programs to run make sure you pip intall support modules via commandline for you to be able to carry on imports e.g '
+### 3. Getting Random Jokes From [icanhazdadjoke](https://icanhazdadjoke.com/) website that has an open-source API
+The API to this project is [here](https://icanhazdadjoke.com/search) where you get ```headers``` and ```params``` from [JSON](https://jsonapi.org/) data.
+#### [Request Library](https://realpython.com/python-requests/)
+This library is useful for making requests behind an API so that you can focus on interacting with services and consuming data in your application. It uses ```HTTP``` method to make requests then:
+* Customizes the request headers and data, using the query string and message body,
+* Inspects data from your requests and responses,
+* Make authenticated requests, and
+* Configures the requests to help prevent the application from backing up or slowing down.
 
-pip install requests, pip install pyfiglet, and pip install termcolor
+##### NOTE: For these programs to run make sure you install pip packages below via commandline.
+* ```pip``` is de facto standard package-management system used to install and manage software packages written in Python.
+For more cool packages visit [here](https://pypi.org/project/pip/)
+```pip install requests``` ,
+```pip install pyfiglet``` and ```pip install termcolor```
