@@ -8,7 +8,7 @@ The Python program should performs a blind SQL injection to obtain the password 
 ```<wfp2_site>``` (e.g. python3 program1.py wfp.oregonctf.org). Your program must implement a [binary search algorithm](https://www.geeksforgeeks.org/binary-search/) that uses conjunctions and regular expressions within [MongoDB](https://docs.mongodb.com/ecosystem/drivers/).
 #### Consider:
 ```http://<wfp2_site>/mongodb/example2/?search=admin%27%20%26%26%20this.password.match(/^a/)//+%00```
-Assuming password alphabetic
+assuming the password is in alphabetics:
 * If entry remains, first character of password is ```a```
 * Add ```a``` to test condition and move on to second character of password
 * If entry disappears, move on to next candidate letter (e.g. ```b```)
