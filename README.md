@@ -17,7 +17,7 @@ Assuming password alphabetic
 ■ Split search space in half and try again
 * If entry disappears, first character is not a letter
 ■ Search half of non-alphabetic characters
-* Continue to narrow regexp until next character of password Found
+* Continue to narrow ```regexp``` until next character of password Found
 
 
 NOTE: For these programs to run make sure you pip intall support modules via commandline for you to be able to carry on imports e.g '
